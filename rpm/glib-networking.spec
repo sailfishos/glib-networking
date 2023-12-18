@@ -11,7 +11,7 @@ Source0:    %{name}-%{version}.tar.bz2
 BuildRequires:  pkgconfig(glib-2.0) >= 2.60.0
 BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(openssl)
-BuildRequires:  intltool
+BuildRequires:  gettext
 BuildRequires:  ca-certificates
 BuildRequires:  meson
 
