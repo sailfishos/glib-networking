@@ -3,12 +3,12 @@ Name:       glib-networking
 %define keepstatic 1
 
 Summary:    Network extensions for GLib
-Version:    2.63.3
+Version:    2.78.0
 Release:    1
 License:    LGPLv2+
 URL:        https://git.merproject.org/mer-core/glib-networking
 Source0:    %{name}-%{version}.tar.bz2
-BuildRequires:  pkgconfig(glib-2.0) >= 2.60.0
+BuildRequires:  pkgconfig(glib-2.0) >= 2.73.3
 BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(openssl)
 BuildRequires:  gettext
