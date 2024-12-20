@@ -3,10 +3,10 @@ Name:       glib-networking
 %define keepstatic 1
 
 Summary:    Network extensions for GLib
-Version:    2.78.0
+Version:    2.80.0
 Release:    1
 License:    LGPLv2+
-URL:        https://git.merproject.org/mer-core/glib-networking
+URL:        https://github.com/sailfishos/glib-networking
 Source0:    %{name}-%{version}.tar.bz2
 BuildRequires:  pkgconfig(glib-2.0) >= 2.73.3
 BuildRequires:  pkgconfig(gio-2.0)
@@ -31,6 +31,5 @@ Networking extensions for GLib
 %find_lang glib-networking
 
 %files -f glib-networking.lang
-%defattr(-,root,root,-)
 %license COPYING
 %{_libdir}/gio/modules/libgioopenssl.so
